@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blue Boy's Sports Store</title>
+        <meta charset="utf-8">
+        <link href="module3.css" rel="stylesheet">
+    </head>   
+
+<body> 
+    <div id="wrapper">
+    <header>
+        <h1>Blue Boy's Jersey Store</h1>
+    </header>  
+    </div> 
+    <nav> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Jerseys</a></li>
+            <li><a href="orders.html">Order Here</a></li>
+        </ul>    
+    </nav>
+    
+    <main>
+      
+            <h2>Order Your Jersey Now!</h2>
+            <h3>Already know what you want?</h3>
+            <p>Required fields are marked with an asterisk*</p>
+            <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                <label for="myFname">*First Name:</label>
+                <input type="text" name="myFname" id="myFname" required="required"></input>
+        
+                <label for="myLname">*Last Name:</label>
+                <input type="text" name="myLname" id="myLname" required="required"></input>
+        
+                <label for="email">*Email:</label>
+                <input type="email" name="email" id="email" required="required"></input>
+        
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" maxlength="12"></input>
+
+                <label for="item">*Your Order Here:</label>
+                <textarea name="item" rows="8" cols="30"></textarea>
+
+                <label for="address">*Address:</label>
+                <textarea name="address" rows="8" cols="30"></textarea>
+        
+                <label for="comments">Special Requests:</label>
+                <textarea name="comments" rows="8" cols="30"></textarea>
+
+        
+                <input type="submit" name="submit" id="submit" required="required"></input>
+        
+        
+            </form>  
+    </main>
+
+    <footer>
+        <small><i>
+            Copyright &copy; 2023 Blue Boy Sports <br>
+            <a href="blueboy.sports@biz.com">
+                blueboy.sports@biz.com
+            </a>
+        </i></small>
+    </footer>
+
+</body>
+</html>    
